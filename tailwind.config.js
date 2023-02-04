@@ -4,13 +4,15 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
+        'header-top': '11px',
         '2xs': '.625rem',
       },
       maxWidth: {
         container: '1140px',
       },
-      backgroundColor: {
-        brand: {
+      colors: {
+        primary: {
+          500: '#1f92f4',
           800: '#175387',
           900: '#0b5492',
         },

@@ -1,3 +1,5 @@
 export default function Home() {
-  return <div className="text-red-500">hello world!</div>
+  return (
+    <main className="flex flex-col brand-container py-4">hello world!</main>
+  )
 }
