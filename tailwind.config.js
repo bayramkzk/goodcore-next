@@ -17,6 +17,9 @@ module.exports = {
           900: '#0b5492',
         },
       },
+      backgroundColor: {
+        hero: '#ebeef6',
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },

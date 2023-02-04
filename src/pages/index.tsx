@@ -1,5 +1,5 @@
-import Container from '@/components/common/Container'
+import Home from '@/components/Home'
 
-export default function Home() {
-  return <Container className="flex flex-col py-4">hello world!</Container>
+export default function HomePage() {
+  return <Home />
 }
