@@ -1,5 +1,5 @@
+import Container from '@/components/common/Container'
+
 export default function Home() {
-  return (
-    <main className="flex flex-col brand-container py-4">hello world!</main>
-  )
+  return <Container className="flex flex-col py-4">hello world!</Container>
 }

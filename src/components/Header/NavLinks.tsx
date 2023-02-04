@@ -16,10 +16,11 @@ export default function NavLinks() {
   const pathname = usePathname()
 
   const navLinks = links.map(link => {
-    const classes = classNames({
-      'header-nav-dropdown-link': true,
-      'border-b-2': pathname === link.href,
-    })
+    const classes = classNames(
+      { 'border-b-2': pathname === link.href },
+      'text-sm flex items-center gap-1 py-5 px-3 border-b-2 border-white uppercase',
+      'hover:bg-blue-100 hover:text-blue-400 hover:border-blue-500'
+    )
 
     return (
       <Link key={link.href} href={link.href} className={classes}>

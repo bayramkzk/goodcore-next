@@ -11,33 +11,5 @@
 html,
 body,
 #__next {
-  @apply h-full w-full m-0 p-0;
-}
-
-body {
-  @apply font-poppins;
-}
-
-.brand-container {
-  @apply container w-full max-w-container m-auto flex;
-}
-
-.header-top-link {
-  @apply flex gap-1 hover:underline items-center;
-}
-
-.header-nav-links {
-  @apply xl:flex hidden items-center;
-}
-
-.header-nav-dropdown-link {
-  @apply text-sm flex items-center gap-1 py-5 px-3 hover:bg-blue-100 hover:text-blue-400 border-b-2 border-white hover:border-blue-500 uppercase;
-}
-
-.header-nav-contact-button {
-  @apply rounded-3xl bg-primary-500 border-primary-500 text-white py-3 px-4 uppercase text-xs hover:bg-white hover:text-primary-500 border border-b-2 inline h-fit;
-}
-
-.header-nav-burger {
-  @apply xl:hidden flex items-center gap-1;
+  @apply h-full w-full m-0 font-poppins;
 }
